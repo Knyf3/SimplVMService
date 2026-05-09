@@ -1,7 +1,7 @@
 using Telegram.Bot;
 using Telegram.Bot.Types;
 
-namespace RVMSService.Services
+namespace SimplVMService.Services
 {
     public class TelegramService : ITelegramService
     {

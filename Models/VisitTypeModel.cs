@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RVMSService.Models
+namespace SimplVMService.Models
 {
     public class VisitTypeModel
     {

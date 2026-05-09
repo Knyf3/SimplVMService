@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
-using RVMSService.Models;
+using SimplVMService.Models;
 using System.Collections.Generic;
 
-namespace RVMSService.Data
+namespace SimplVMService.Data
 {
     public class AppDBContext : IdentityDbContext<ApplicationUser>
     {

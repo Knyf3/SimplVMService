@@ -1,5 +1,5 @@
 ﻿
-namespace RVMSService.Services
+namespace SimplVMService.Services
 {
     public interface IHealthCheckService
     {

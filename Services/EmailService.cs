@@ -1,7 +1,7 @@
 using System.Net;
 using System.Net.Mail;
 
-namespace RVMSService.Services
+namespace SimplVMService.Services
 {
     public class EmailService : IEmailService
     {

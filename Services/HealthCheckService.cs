@@ -1,6 +1,6 @@
-﻿using RVMSService.Data;
+﻿using SimplVMService.Data;
 
-namespace RVMSService.Services
+namespace SimplVMService.Services
 {
     public class HealthCheckService : IHealthCheckService
     {

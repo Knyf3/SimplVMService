@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace RVMSService.Controllers
+namespace SimplVMService.Controllers
 {
     [ApiController]
     [Route("[controller]")]

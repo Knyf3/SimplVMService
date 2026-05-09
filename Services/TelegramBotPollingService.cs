@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using RVMSService.Data;
+using SimplVMService.Data;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 
-namespace RVMSService.Services
+namespace SimplVMService.Services
 {
     public class TelegramBotPollingService : BackgroundService
     {

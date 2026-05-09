@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RVMSService.Models
+namespace SimplVMService.Models
 {
     public class GateModel
     {

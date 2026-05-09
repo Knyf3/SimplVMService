@@ -3,16 +3,16 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using RVMSService.Helpers;
-using RVMSService.Models;
-using RVMSService.Services;
+using SimplVMService.Helpers;
+using SimplVMService.Models;
+using SimplVMService.Services;
 using System.Diagnostics.Eventing.Reader;
 using System.IdentityModel.Tokens.Jwt;
 using System.Runtime.InteropServices;
 using System.Security.Claims;
 using System.Text;
 
-namespace RVMSService.Controllers
+namespace SimplVMService.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

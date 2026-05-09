@@ -1,4 +1,4 @@
-namespace RVMSService.Services
+namespace SimplVMService.Services
 {
     public interface IEmailService
     {

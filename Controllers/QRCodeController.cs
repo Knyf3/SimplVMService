@@ -1,10 +1,10 @@
 ﻿using Azure.Core;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using RVMSService.Models;
-using RVMSService.Services;
+using SimplVMService.Models;
+using SimplVMService.Services;
 
-namespace RVMSService.Controllers
+namespace SimplVMService.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

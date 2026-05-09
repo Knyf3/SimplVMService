@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RVMSService.Data;
-using RVMSService.Models;
+using SimplVMService.Data;
+using SimplVMService.Models;
 using System.Runtime.CompilerServices;
 
-namespace RVMSService.Services
+namespace SimplVMService.Services
 {
     public class QRCodeService : IQRCodeService
     {

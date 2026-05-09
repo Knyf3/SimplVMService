@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
-using RVMSService.Data;
-using RVMSService.Models;
+using SimplVMService.Data;
+using SimplVMService.Models;
 
-namespace RVMSService.Services
+namespace SimplVMService.Services
 {
     public class VisitorService : IVisitorService
     {

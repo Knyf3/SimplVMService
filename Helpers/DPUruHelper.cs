@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace RVMSService.Helpers
+namespace SimplVMService.Helpers
 {
     /// <summary>
     /// Manages a DigitalPersona 4500 fingerprint reader via the native

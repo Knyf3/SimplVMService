@@ -1,6 +1,6 @@
-﻿using RVMSService.Models;
+﻿using SimplVMService.Models;
 
-namespace RVMSService.Services
+namespace SimplVMService.Services
 {
     public interface IGateService
     {

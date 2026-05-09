@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using RVMSService.Data;
+using SimplVMService.Data;
 
 #nullable disable
 
-namespace RVMSService.Migrations
+namespace SimplVMService.Migrations
 {
     [DbContext(typeof(AppDBContext))]
     [Migration("20251010151038_initmigration")]

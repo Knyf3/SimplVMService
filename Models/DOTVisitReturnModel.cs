@@ -1,4 +1,4 @@
-﻿namespace RVMSService.Models
+﻿namespace SimplVMService.Models
 {
     public class DOTVisitReturnModel
     {

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 
-namespace RVMSService.Helpers
+namespace SimplVMService.Helpers
 {
     public class SQLDaHelper
     {

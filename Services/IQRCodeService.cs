@@ -1,7 +1,7 @@
-﻿using RVMSService.Models;
+﻿using SimplVMService.Models;
 using System.Threading.Tasks;
 
-namespace RVMSService.Services
+namespace SimplVMService.Services
 {
     public interface IQRCodeService
     {

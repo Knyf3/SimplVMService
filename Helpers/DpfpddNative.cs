@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace RVMSService.Helpers
+namespace SimplVMService.Helpers
 {
     /// <summary>
     /// P/Invoke declarations for the DigitalPersona DPFPDD native SDK.

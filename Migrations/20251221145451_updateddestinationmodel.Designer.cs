@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using RVMSService.Data;
+using SimplVMService.Data;
 
 #nullable disable
 
-namespace RVMSService.Migrations
+namespace SimplVMService.Migrations
 {
     [DbContext(typeof(AppDBContext))]
     [Migration("20251221145451_updateddestinationmodel")]
@@ -158,7 +158,7 @@ namespace RVMSService.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("RVMSService.Models.ApplicationUser", b =>
+            modelBuilder.Entity("SimplVMService.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -229,7 +229,7 @@ namespace RVMSService.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("RVMSService.Models.AuditTrailModel", b =>
+            modelBuilder.Entity("SimplVMService.Models.AuditTrailModel", b =>
                 {
                     b.Property<Guid?>("AuditTrailId")
                         .ValueGeneratedOnAdd()
@@ -258,7 +258,7 @@ namespace RVMSService.Migrations
                     b.ToTable("AuditTrails");
                 });
 
-            modelBuilder.Entity("RVMSService.Models.DestinationModel", b =>
+            modelBuilder.Entity("SimplVMService.Models.DestinationModel", b =>
                 {
                     b.Property<Guid>("DestinationId")
                         .ValueGeneratedOnAdd()
@@ -295,7 +295,7 @@ namespace RVMSService.Migrations
                     b.ToTable("Destinations");
                 });
 
-            modelBuilder.Entity("RVMSService.Models.GateModel", b =>
+            modelBuilder.Entity("SimplVMService.Models.GateModel", b =>
                 {
                     b.Property<Guid?>("GateId")
                         .ValueGeneratedOnAdd()
@@ -320,7 +320,7 @@ namespace RVMSService.Migrations
                     b.ToTable("Gates");
                 });
 
-            modelBuilder.Entity("RVMSService.Models.QrCodeModel", b =>
+            modelBuilder.Entity("SimplVMService.Models.QrCodeModel", b =>
                 {
                     b.Property<Guid>("QrId")
                         .ValueGeneratedOnAdd()
@@ -350,7 +350,7 @@ namespace RVMSService.Migrations
                     b.ToTable("QrCodes");
                 });
 
-            modelBuilder.Entity("RVMSService.Models.VisitModel", b =>
+            modelBuilder.Entity("SimplVMService.Models.VisitModel", b =>
                 {
                     b.Property<Guid>("VisitId")
                         .ValueGeneratedOnAdd()
@@ -400,7 +400,7 @@ namespace RVMSService.Migrations
                     b.ToTable("Visits");
                 });
 
-            modelBuilder.Entity("RVMSService.Models.VisitTypeModel", b =>
+            modelBuilder.Entity("SimplVMService.Models.VisitTypeModel", b =>
                 {
                     b.Property<Guid?>("TypeId")
                         .ValueGeneratedOnAdd()
@@ -429,7 +429,7 @@ namespace RVMSService.Migrations
                     b.ToTable("VisitTypes");
                 });
 
-            modelBuilder.Entity("RVMSService.Models.VisitorModel", b =>
+            modelBuilder.Entity("SimplVMService.Models.VisitorModel", b =>
                 {
                     b.Property<Guid>("VisitorId")
                         .ValueGeneratedOnAdd()
@@ -469,7 +469,7 @@ namespace RVMSService.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("RVMSService.Models.ApplicationUser", null)
+                    b.HasOne("SimplVMService.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -478,7 +478,7 @@ namespace RVMSService.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("RVMSService.Models.ApplicationUser", null)
+                    b.HasOne("SimplVMService.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -493,7 +493,7 @@ namespace RVMSService.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("RVMSService.Models.ApplicationUser", null)
+                    b.HasOne("SimplVMService.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -502,7 +502,7 @@ namespace RVMSService.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("RVMSService.Models.ApplicationUser", null)
+                    b.HasOne("SimplVMService.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

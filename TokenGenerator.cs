@@ -1,4 +1,4 @@
-﻿namespace RVMSService
+﻿namespace SimplVMService
 {
     public class TokenGenerator
     {

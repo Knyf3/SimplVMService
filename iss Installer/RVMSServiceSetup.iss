@@ -1,8 +1,8 @@
-#define MyAppName "RVMS Service"
+#define MyAppName "SimplVM Service"
 #define MyAppVersion "1.0.4"
 #define MyAppPublisher "Total Optima Solusi"
-#define MyAppExeName "RVMSService.exe"
-#define ServiceName "RVMSService"
+#define MyAppExeName "SimplVMService.exe"
+#define ServiceName "SimplVMService"
 
 [Setup]
 AppId={{B3F7E2A1-9C4D-4E8B-A1D6-7F2E3B4C5D6E}

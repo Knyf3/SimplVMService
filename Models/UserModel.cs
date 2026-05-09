@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
-namespace RVMSService.Models
+namespace SimplVMService.Models
 {
     // Add this new class
     public class ApplicationUser : IdentityUser

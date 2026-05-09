@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace RVMSService.Migrations
+namespace SimplVMService.Migrations
 {
     /// <inheritdoc />
     public partial class update4 : Migration

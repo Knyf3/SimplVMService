@@ -1,7 +1,7 @@
 ﻿//using DPUruNet;
 using System.Text;
 
-namespace RVMSService.Helpers
+namespace SimplVMService.Helpers
 {
     public static class FmdSerializer
     {

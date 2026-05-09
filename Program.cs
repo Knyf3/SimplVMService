@@ -8,13 +8,13 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Linq;
-using RVMSService.Data;
-using RVMSService.Models;
-using RVMSService.Services;
+using SimplVMService.Data;
+using SimplVMService.Models;
+using SimplVMService.Services;
 using Serilog;
 using System.Text;
 
-namespace RVMSService
+namespace SimplVMService
 {
     public class Program
     {
@@ -166,7 +166,7 @@ namespace RVMSService
             {
                 options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo()
                 {
-                    Title = "RVMS Service",
+                    Title = "SimplVM Service",
                     Version = "v1"
 
                 });

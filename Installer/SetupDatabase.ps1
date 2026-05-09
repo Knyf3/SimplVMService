@@ -5,7 +5,7 @@
 #   2. Create SQL Server login (if using SQL Authentication)
 #   3. Create database if it doesn't exist
 #   4. Grant login access to the database
-#   5. Run RVMSService.exe --setup (applies EF Core migrations)
+#   5. Run SimplVMService.exe --setup (applies EF Core migrations)
 # ============================================================
 param(
     [string]$SqlServer,
@@ -163,9 +163,9 @@ $masterConn.Close()
 
 # ── Step 5: Run EF Core migrations via the app ──
 Write-Log "Running EF Core migrations..."
-$exePath = Join-Path $AppPath "RVMSService.exe"
+$exePath = Join-Path $AppPath "SimplVMService.exe"
 if (-not (Test-Path $exePath)) {
-    Write-Log "ERROR: RVMSService.exe not found at '$exePath'"
+    Write-Log "ERROR: SimplVMService.exe not found at '$exePath'"
     exit 1
 }
 

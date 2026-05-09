@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RVMSService.Services;
+using SimplVMService.Services;
 
-namespace RVMSService.Controllers
+namespace SimplVMService.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
